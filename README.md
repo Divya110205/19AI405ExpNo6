@@ -63,6 +63,7 @@ Let's walk through the algorithm's execution with the full move tree, and show w
 Here is the function for scoring the game:
 
 # @player is the turn taking player
+```
 def score(game)
     if game.win?(@player)
         return 10
@@ -101,6 +102,7 @@ def minimax(game)
         return scores[min_score_index]
     end
 end
+```
 
 ## Program:
 ```
@@ -302,6 +304,7 @@ if __name__ == "__main__":
 <h2>Sample Input and Output</h2>
 
 ![image](https://github.com/user-attachments/assets/9e46b534-3fdb-44a4-be81-430193202eac)
+
 ![image](https://github.com/user-attachments/assets/562a4c44-434c-49f5-aebf-e937902a041b)
 
 <hr>
