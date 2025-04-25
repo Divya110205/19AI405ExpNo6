@@ -301,7 +301,7 @@ if __name__ == "__main__":
 ```
 
 <hr>
-<h2>Sample Input and Output</h2>
+<h2>Output:</h2>
 
 ![image](https://github.com/user-attachments/assets/9e46b534-3fdb-44a4-be81-430193202eac)
 
